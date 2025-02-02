@@ -8,6 +8,7 @@ These algorithms are play a key role in artificial intelligence and robotics, en
 A* search is an informed search method, which means it uses additional knowledge to make informed decisions about which path to explore. A* combines two factors to determine the best path: 
 
   g-value: The cost to reach the current node from the start point
+  
   h-value (heuristic): An estimate of the cost from the current node to the goal
 
 A* explores paths based on the sum of these two values (f = g + h), prioritizing paths that are likely to lead to the shortest possible route to the goal. By considering both the actual and estimated costs, A* tends to explore not only shorter paths, but also those that are more promising, potentially leading it closer to the goal. The most promising path is one that balances both reaching the goal quickly (heuristic value) and the cost incurred to get there (g-value). This makes it more likely to find the shortest path, while avoiding unnecessary exploration of less optimal paths. A* search is often faster and more efficient than Breadth-First search, particularly in more complex environments. 
