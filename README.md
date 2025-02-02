@@ -1,6 +1,5 @@
 # Micromouse
-
-##Micromouse 
+ 
 This project is simulates the popular Micromouse robotics competiton, where autonomous robots navigate through an unknown maze as quickly as possible. The project allows users to visualise and compare the performance of well known pathfinding algorithms A-star (A*) and Breadth-First Search (BFS). 
 
 These algorithms are play a key role in artificial intelligence and robotics, enabling efficient navigation and decision-making in dynamic environments. The project offers users a real-time view of how these algorithms navigate through various mazes, providing valuable insights into their behavior and efficiency. 
@@ -25,10 +24,10 @@ Method for expanding nodes:
 BFS guarantees that the shortest path in an unweight grid/graph because every node is explored before moving to the next depth level. BFS tends to be less efficient and more memory-intesive than A* search as it explores every possible path. 
 
 ## Future improvements
-Looking forward, I would like to add the following features to the project: 
+Looking forward, I plan to add the following features to the project: 
 
 ### Additional algorithms:
-More algorithms would be useful in demonstrating a broader perspective on the avaiability of search algortihms
+Implementing more algorithms would provide a wider perspective on the range of avaiable techniques and help users compare their performance. 
 
 ### Add a dynamic GUI: 
-Adding a GUI would make the project feel more complete and more easily demonstrate the navigation through the mazes. 
+Integrating a GUI would enhance the user experience, making it easier to visualize and interact with the algorithm selection and maze navigation in real-time. 
