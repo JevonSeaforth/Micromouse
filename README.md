@@ -11,7 +11,9 @@ A* search is an informed search method, which means it uses additional knowledge
   
   h-value (heuristic): An estimate of the cost from the current node to the goal
 
-A* explores paths based on the sum of these two values (f = g + h), prioritizing paths that are likely to lead to the shortest possible route to the goal. By considering both the actual and estimated costs, A* tends to explore not only shorter paths, but also those that are more promising, potentially leading it closer to the goal. The most promising path is one that balances both reaching the goal quickly (heuristic value) and the cost incurred to get there (g-value). This makes it more likely to find the shortest path, while avoiding unnecessary exploration of less optimal paths. A* search is often faster and more efficient than Breadth-First search, particularly in more complex environments. 
+A* explores paths based on the sum of these two values (f = g + h), prioritizing paths that are likely to lead to the shortest possible route to the goal. By considering both the actual and estimated costs, A* tends to explore not only shorter paths, but also those that are more promising, potentially leading it closer to the goal. The most promising path is one that balances both reaching the goal quickly (heuristic value) and the cost incurred to get there (g-value). This makes it more likely to find the shortest path, while avoiding unnecessary exploration of less optimal paths. 
+
+A* search is often faster and more efficient than Breadth-First search, particularly in more complex environments. 
 
 ## BFS (Breadth-First Search) algorithm
 Breadth-First search is an uninformed search metod, meaning it explores the paths blindly, without using any additonal knowledge to prioritize nodes. BFS systematically explores all possible paths, starting from an intial node and moving outwards to neighbouring nodes. 
@@ -22,7 +24,9 @@ Method for expanding nodes:
   Expanding each depth level: After exploring all nodes at a given depth, BFS moves to explore nodes at the  
   next depth level, iterating until the goal is found.
 
-BFS guarantees that the shortest path in an unweight grid/graph because every node is explored before moving to the next depth level. BFS tends to be less efficient and more memory-intesive than A* search as it explores every possible path. 
+BFS guarantees that the shortest path in an unweight grid/graph because every node is explored before moving to the next depth level. 
+
+BFS tends to be less efficient and more memory-intesive than A* search as it explores every possible path. 
 
 ## Future improvements
 Looking forward, I plan to add the following features to the project: 
