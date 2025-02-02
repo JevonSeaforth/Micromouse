@@ -32,5 +32,5 @@ Looking forward, I plan to add the following features to the project:
 ### Additional algorithms:
 Implementing more algorithms would provide a wider perspective on the range of avaiable techniques and help users compare their performance. 
 
-### Add a dynamic GUI: 
+### A dynamic graphic user inteface: 
 Integrating a GUI would enhance the user experience, making it easier to visualize and interact with the algorithm selection and maze navigation in real-time. 
