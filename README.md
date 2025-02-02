@@ -26,8 +26,6 @@ Method for expanding nodes:
 
 BFS guarantees that the shortest path in an unweight grid/graph because every node is explored before moving to the next depth level. 
 
-BFS tends to be less efficient and more memory-intesive than A* search as it explores every possible path. 
-
 ## Future improvements
 Looking forward, I plan to add the following features to the project: 
 
